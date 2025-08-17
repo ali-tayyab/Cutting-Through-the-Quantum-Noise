@@ -1,5 +1,3 @@
-import qiskit
-from qiskit_ibm_runtime import QiskitRuntimeService
 import rustworkx as rx
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,4 +21,14 @@ from qiskit_ibm_runtime import (
 )
 from qiskit_ibm_runtime.debug_tools import Neat
 from qiskit_aer import AerSimulator
+
 from utils import zne_method, plot_zne, plot_backend_errors_and_counts
+from qc_grader.challenges.qgss_2025 import (
+    grade_lab2_ex1,
+    grade_lab2_ex2,
+    grade_lab2_ex3,
+    grade_lab2_ex4,
+    grade_lab2_ex5,
+    grade_lab2_ex6a,
+    grade_lab2_ex6b,
+)
